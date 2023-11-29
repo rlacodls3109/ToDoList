@@ -3,6 +3,7 @@
 import React, { Component } from "react";
 import Modal from "./components/Modal";
 import axios from "axios";
+import "./App.css";
 
 class App extends Component {
   constructor(props) {
@@ -36,16 +37,17 @@ class App extends Component {
     return (
       <div className="my-5 tab-list">
         <span
-          onClick={() => this.displayCompleted(true)}
-          className={this.state.viewCompleted ? "active" : ""}
-        >
-          complete
-        </span>
-        <span
           onClick={() => this.displayCompleted(false)}
-          className={this.state.viewCompleted ? "" : "active"}
+          className={this.state.viewCompleted ? "inactive" : "active"}
         >
-          Incomplete
+        |   할 일   |
+        </span>
+
+        <span
+          onClick={() => this.displayCompleted(true)}
+          className={this.state.viewCompleted ? "active" : "inactive"}
+        >
+        |   완료된 항목    |
         </span>
       </div>
     );
@@ -55,6 +57,7 @@ class App extends Component {
     const newItems = this.state.todoList.filter(
       item => item.completed === viewCompleted
     );
+
     return newItems.map(item => (
       <li
         key={item.id}
@@ -68,19 +71,19 @@ class App extends Component {
         >
           {item.title}
         </span>
-        <span>
+        <span id="fisrtspan">
           <button
             onClick={() => this.editItem(item)}
             className="btn btn-secondary mr-2"
           >
             {" "}
-            Edit{" "}
+            수정하기{" "}
           </button>
           <button
             onClick={() => this.handleDelete(item)}
             className="btn btn-danger"
           >
-            Delete{" "}
+            삭제{" "}
           </button>
         </span>
       </li>
@@ -116,7 +119,7 @@ class App extends Component {
   render() {
     return (
       <main className="content">
-        <h1 className="text-white text-uppercase text-center my-4">Todo app</h1>
+        <h1 className="text-white text-uppercase text-center my-4">코딩크루 ToDo</h1>
         <div className="row ">
           <div className="col-md-6 col-sm-10 mx-auto p-0">
             <div className="card p-3">
