@@ -41,7 +41,9 @@
 스터디 과정 및 결과물을 단국대학교 단러닝클럽 Best Practice 공모전에 출품하여 최우수상을 수상하였습니다.
 ***발표자료는 Github 업로드***
 
-![image](https://github.com/rlacodls3109/ToDoList/assets/56792033/751346c5-f0be-41c7-8c98-64e58a3f97a1)
+![image](https://github.com/rlacodls3109/ToDoList/assets/56792033/751346c5-f0be-41c7-8c98-64e58a3f97a1) | ![image](https://github.com/rlacodls3109/ToDoList/assets/56792033/91a813b7-2507-40ca-8961-fe9cd59d56a0)
+---|---|
+
 
 
 
