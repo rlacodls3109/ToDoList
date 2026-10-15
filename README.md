@@ -11,15 +11,15 @@
 
 ### ✔️Frond-end
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
-단국대학교 사학과 주세연
-단국대학교 소프트웨어학과 장시우
-단국대학교 소프트웨어학과 천은유
+사학과 주세연</br>
+소프트웨어학과 장시우</br>
+소프트웨어학과 천은유
 
 ### ✔️Back-end
 <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
-단국대학교 소프트웨어학과 오주원
-단국대학교 소프트웨어학과 김채인
-단국대학교 경영학과 허연재
+소프트웨어학과 오주원</br>
+소프트웨어학과 김채인</br>
+경영학과 허연재
 
 
 
